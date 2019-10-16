@@ -1,0 +1,50 @@
+html, body
+  {height: 100%}
+  
+body
+   {     
+     background: #333;
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+        
+   }
+#box{
+  position:reLative;
+  
+  border-radius:20px;
+  width: 50vw;
+  height: 70vh;
+  background-color:white;
+  text-align:center;
+  padding-top:8vh;
+  
+  }
+#text{  
+  
+  font-size:5vh;
+  width:45vw;
+  margin-left:2.5vw;
+  margin-bottom:2vh;
+  
+}
+#author{
+  margin-top:0vh;
+  font-size:3vh;
+  
+}
+#new-quote{
+  margin-top:4vh;
+  margin-bottom:1vh;
+  background:white;
+  font-size:6vh;
+  color:white;
+  background:#333;
+  border-radius:2vh;
+  border: 0px;
+  font:serif;
+}
+.fab{
+  color:#333;
+  font-size:7vh;
+}
